@@ -1,1 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: serif;
+}
 
+h1 {
+  color: blue;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20pz;
+}
+/*This is a decendant selector. Will select all the p tags in the footer element */
+footer p {
+  font-size: 16px;
+}
+/*Nested decendant selector, the p tag inside of the header, inside of the article*/
+article header p {
+  font-style: italic;
+}
