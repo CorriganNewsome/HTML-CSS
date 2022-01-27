@@ -84,6 +84,24 @@ li:last-child {
   font-style: italic;
 }
 /* Will color all of the odd elements in the li tags */
-li:nth-child(odd) {
+li:nth-child(even) {
   color: rebeccapurple;
+}
+
+/* Styling Links */
+a:visited,
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+/* When you hover over something */
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+/* When you the click is active on the link */
+a:active {
+  background-color: black;
+  font-style: italic;
 }
