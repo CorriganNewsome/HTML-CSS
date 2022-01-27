@@ -75,3 +75,15 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+/* Psuedo-classes. Will select the first child elements in the li tags */
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+/* Will color all of the odd elements in the li tags */
+li:nth-child(odd) {
+  color: rebeccapurple;
+}
