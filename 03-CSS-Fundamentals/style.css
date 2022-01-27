@@ -34,10 +34,28 @@ li {
   font-size: 20pz;
 }
 /*This is a decendant selector. Will select all the p tags in the footer element */
-footer p {
+/* footer p {
   font-size: 16px;
-}
-/*Nested decendant selector, the p tag inside of the header, inside of the article*/
+ } */
+/* Nested decendant selector, the p tag inside of the header, inside of the article
 article header p {
   font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
 }
