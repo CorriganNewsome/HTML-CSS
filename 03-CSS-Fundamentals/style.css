@@ -166,6 +166,8 @@ a:active {
   height: auto;
 }
 /* Changes inline element to block elements */
-/* nav a:link {
-  display: block;
-} */
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
