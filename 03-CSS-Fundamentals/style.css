@@ -13,6 +13,7 @@ li {
   font-family: sans-serif;
   color: #444;
 }
+/* Page Section */
 body {
   color: #444;
   font-family: sans-serif;
@@ -32,7 +33,7 @@ body {
   /* This is shorthand, the first is padding on the top and bottom and the second is the padding for the left and right */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -53,6 +54,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
   width: 500px;
+  /* Smaller elements */
 }
 h1,
 h2,
@@ -163,3 +165,7 @@ a:active {
   width: 100%;
   height: auto;
 }
+/* Changes inline element to block elements */
+/* nav a:link {
+  display: block;
+} */
