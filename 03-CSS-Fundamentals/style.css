@@ -184,3 +184,24 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+}
