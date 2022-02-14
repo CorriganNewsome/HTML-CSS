@@ -18,6 +18,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 .container {
   width: 700px;
@@ -170,4 +171,16 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  /* To have the button in the bottom right corner we set the body to position: relative and in the button element we 
+  set the position to absolute and the bottom and right to 50px....this will be relative to the body and not the viewport. */
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
